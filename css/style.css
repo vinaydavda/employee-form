@@ -1,0 +1,46 @@
+table, tr{
+    border: 1px solid black;
+}
+
+table {
+    width: 300px;
+}
+
+td {
+    height: 30px;
+    width: 50%;
+}
+
+input[type='text'] {
+    background-color: rgb(235, 250, 255);
+    height: 25px;
+    border: 0.5px solid rgb(75, 75, 75);
+}
+
+/* input[type='text']:focus {
+    outline-color: red;
+} */
+
+textarea{
+    width: 96%;
+    background-color: rgb(235, 250, 255);
+}
+
+.align-middle {
+    text-align: center;
+    justify-content: space-around;
+}
+
+.buttons {
+    border-top: 0;
+}
+
+.buttons td {
+    text-align: center;
+}
+
+button {
+    height: 90%;
+    width: 100px;
+    background-color: rgb(189, 189, 189);
+}
